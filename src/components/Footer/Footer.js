@@ -11,6 +11,7 @@ import {
   FooterAddress,
   FooterColumn,
   FooterGrid,
+  FooterCopywrite,
 } from "./FooterStyles";
 import { footerData, footerSocialData } from "../../data/FooterData";
 import { Row, Section } from "../../globalStyles";
@@ -51,7 +52,7 @@ function Footer() {
             </FooterLinkItems>
           ))}
         </FooterGrid>
-        <FooterRights>Delta © 2021</FooterRights>
+        <FooterRights>Copywrite © 2021</FooterRights>
       </FooterWrapper>
     </Section>
   );
